@@ -11,28 +11,66 @@
 
 <body>
 
-    <div class= "header">
         <header>
-            <h1>Annie Jackson</h1>
-
-            <a href="index.html">About</a>
-            <a href="portfolio.html">Portfolio</a>
-            <a href="contact.html">Contact</a>
+                <div id="header_bottom_border">
+                <div id="header-left">
+                    <h1>Annie Jackson</h1>
+                </div>
+          
+                <div id="header-right">
+                    
+                    <ul>
+                        <li><a href="index.html">About</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                    
+                    </div>
+                </div>
+                </div>
             
-        </header>    
-    </div>
+            </header>
 
-    <div class="container">
-
-        <section id="contact">
-            <div class= "sub-header">
-                
-                <h2>Contact</h2>
-            
-            </div>    
-        
-        </section>
-    </div>
     
+    <section id="contact">
+        <div class="contact_header">
+            <h2>Contact</h2>
+        </div>    
+    
+    <form action="/action_page.php">
+        <div class="row">
+            <div class="col-25">
+                <label for="name">Name</label>
+            </div>
+            <div class="col-75">
+                <input type="text" name="name" value="Jane Doe">
+            </div>
+        </div>
+        
+        <div class="row">
+            <label for="email">Email</label>
+            <input type="text" name="email" value="your_email@gmail.com">
+        </div>
+        
+        <div class="row">
+            <label for="message">Message</label>
+            <textarea type="text" name="message" value="Enter your message here"></textarea>
+        </div>
+        
+        <div class="row">
+            <input type="submit" value="Submit">
+        </div>
+    </form>
+
+    </section>
+
+    <footer>
+        
+        <div class="footer">
+            <p>@copyright</p>
+        </div>
+    
+    </footer>
+
 </body>
 </html>
